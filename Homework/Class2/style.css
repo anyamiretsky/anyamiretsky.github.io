@@ -1,0 +1,71 @@
+
+
+body
+{
+    background: #c8deec;
+    border:  solid 1px;
+    
+}
+h1{
+    font-family: Courier New;
+    padding: 3px;
+     
+}
+h2{
+    color: rgb(76, 131, 151);
+    font-family: Century Gothic;
+    padding: 3px;
+     
+}
+h3{
+    
+    font-family: Courier New;
+    padding: 3px;
+     
+}
+h4{
+    font-family: Courier New;
+    font-style: italic;
+    padding: 3px;
+    color: #887
+}
+h5{
+    color: #887;
+    font-family: Helvetica Neue;
+    padding: 3px;
+     
+}
+
+p{
+    font-family: Helvetica Neue;
+    padding: 3px;
+     
+}
+
+a{
+    color: black;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+     
+}
+
+img{
+    padding-left: 6px;
+    
+}
+
+ul{
+    font-family: Helvetica Neue;
+     
+    
+}
+ol{
+    font-family: Helvetica Neue;
+     
+    
+}
+li{
+    font-family: Helvetica Neue;
+    
+}
+
