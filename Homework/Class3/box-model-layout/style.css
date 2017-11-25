@@ -1,0 +1,39 @@
+body{
+    margin: 2px;
+}
+
+div{
+    background: lightgray;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.first-div{
+    height: 40px;
+    margin: 10px;
+}
+.first-div p{
+    color: white;
+    background: black;
+    padding: 5px;
+}
+
+.second-div{
+    margin: 10px;
+}
+
+.purple-p{
+    color: purple;
+    background: red;
+    padding: 10px;
+}
+.green-p{
+    color: green;
+    background: red;
+    padding: 10px;
+}
+.yellow-p{
+    color: yellow;
+    background: red;
+    padding: 10px;
+}
