@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 800px;
+  margin: 0 auto;
+  background: #121212;
+}
+
+/* Shared */
+.button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 9px 0;
+  width: 150px;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.button--yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+/* Header */
+.header {
+  background: url('../images/header_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 60px 120px;
+  color: #fff;
+  text-align: center;
+}
+
+.header__h1 {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.header__h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+/* Benefit */
+.benefits {
+  padding: 30px 60px;
+  background: #f0efef;
+}
+
+.benefits__p, .benefits__li {
+  width: 400px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+/* Testimonial */
+.testimonial {
+  color: white;
+  text-align: center;
+  background: url('../images/testimonial_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  line-height: 1.5;
+}
+
+.testimonial__quotation {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.testimonial__author {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Call to action */
+.cta {
+  background: #f9e42e;
+  padding: 20px;
+  text-align: center;
+}
+
+.button--blue {
+  background: #033048;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background: #121212;
+  padding: 30px 0 45px;
+  text-align: center;
+}
+
+.footer-h4 {
+  color: #f9e42e;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.footer-a{
+  text-decoration: none;
+}
+
+.footer-a__img {
+  margin: 20px;
+}
+
+.footer__copyright {
+  font-size: 9px;
+  color: #fff;
+  font-weight: 600;
+  display: block;
+}

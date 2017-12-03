@@ -1,0 +1,36 @@
+Relaxr Landing Page: Part 1
+==================
+ 
+Your job is to build out the CSS - using the information below!
+
+---
+
+benefits background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+(font-family: 'Open Sans', sans-serif;)
+
+body: 800px wide, centered. background color: #121212;
+"Relaxr" - font-weight: 800, font-size: 24px
+"Get piece of mind with a single tap" - font-weight: 500, font-size: 24px
+"Get it Now" - font-weight: 700, 14px. 5px border radius
+"Benefits" - font-weight: 700, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - font-weight: 100, 14px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - 400, 18px, line-height 1.5
+"- Amanda, Intuit " - semibold, 18px, line-height 1.5
+
+"Sign Up Now!" - font-weight: 700, 14px. 5px border radius
+
+Relaxr - 900, 24px
+"Copyright 2015. Relaxr." - font-weight: 600 9px
