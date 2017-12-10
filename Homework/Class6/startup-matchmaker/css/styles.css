@@ -1,0 +1,129 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+body{
+    font-family: "Source Sans Pro"
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: black;
+    border-bottom: solid 4px yellow;
+    
+}
+header h1{
+    color: yellow;
+    font-family: "Merriweather", serif;
+    padding: 10px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px;
+    font-family: "Oswald";
+}
+.tagline{
+    font-family: "Merriweather";
+    font-style: italic;
+    background: #C6C6C6;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tag-p-strike{
+    color: grey;
+    padding: 0 3px ;
+    text-decoration: line-through;
+}
+.tag-p-under{
+    padding: 0 3px 0 0;
+    border-bottom: solid 1px yellow;
+}
+    
+
+.section1{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../img/coworking.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    margin: 32px;
+    background: rgba(255, 255, 255, 0.7);
+    border: solid 1px lightgrey;
+    padding: 10px;
+    
+}
+
+h2{
+    margin:0;
+    padding: 9px;
+    /* font-size: 25px; */
+    font-family: "Oswald"; 
+}
+.box p{
+    padding: 0 5px 10px 5px;
+}
+.button{
+    background: yellow;
+    color: black;
+    border-radius: 4px;
+    width: 340px;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+    margin: 5px;
+    height: 40px;
+    line-height: 2.5;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+.box2:not(:last-child){
+    border-right: solid 1px lightgrey;
+}
+.box2 .button{
+    background: lightgrey;
+    
+}
+
+.section2 h2{
+        margin:0;
+        font-family: "Merriweather", serif;
+        font-size: 25px;
+}
+footer{
+    background: black;
+    color:white;
+    height: 30px;
+    padding: 10px;
+}
+p{
+    margin: 0;
+   
+}
