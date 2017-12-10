@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding: 20px;
+  
+
+}
+.div-header{
+    width: 400px;
+    
+}
+.div-header p{
+    background: lightgrey;
+    margin: 0px; 
+    padding: 0px; 
+    height: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 10px 0 10px 30px;
+    /* border: 1px solid black; */
+}
+nav a {
+    height: 40px;
+    width: 15%;
+    text-align: center;
+    background: lightgrey;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 20px;
+}
+
+/* SIDEBAR */
+.section-sidebar{
+    width: 200px;
+    /* height: 480px; */
+    background: lightgrey;
+    /* padding: 20px; */
+    
+}
+/* SECTION MAIN */
+.section-main{
+    /* row1 and row2 in a column */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 960px;
+    padding: 0 0 0 20px;
+   
+
+}
+/* SECTION MAIN FIRST ROW */
+.section-main-row1{
+    /* just a paragraph*/
+    background: lightgrey;
+    height: 100px;
+    padding: 0px 0 10px 0px;
+}
+
+/* SECTION MAIN SECOND ROW */
+.section-main-row2{
+    /* has two columns */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+    
+}
+.row2-column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding: 0 10px 0 10px;
+    border: solid 1px black;
+    
+}
+.row2-column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    padding: 0 0 0 10px;
+    border: solid 1px black;
+    
+}
+
+/* ROW 2 COLUMN 1 */
+.row2-column1 p{
+    background: lightgray;
+    height: 75%;
+
+    
+    
+    
+}
+.row2-column1-Row2-inner{
+    height: 25%;
+    width: 30%;
+}
+.row2-column1-Row2-inner p{
+    background: lightgray;
+}
+
+
+.row2-column1-Row2-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    /* background: lightgray;*/
+} 
+
+/* ROW 2 COLUMN 2 */
+.row2-column2 p{
+    /* height: 50%;
+    background: lightgray; */
+    margin: 0 10px 10px 0;
+}
+.row2-column2-p-top{
+    height: 75%;
+    background: lightgray;
+}
+.row2-column2-p-bottom{
+    height: 25%;
+    background: lightgray;
+}
+
+/* FOOTER */
+footer{
+    height: 100px;
+    /* border: 1px solid black; */
+    background: lightgrey;
+    margin: 20px;
+
+}
