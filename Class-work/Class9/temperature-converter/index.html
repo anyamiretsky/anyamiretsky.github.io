@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<h1>Temperature Converter</h1>
+		<div>
+			<input id="temp" type="text" placeholder="Temperature" >
+			<select id="scale">
+				<option value="F" selected="selected">°F</option>
+				<option value="C">°C</option>
+			</select>
+			
+		</div>
+		
+		<div>
+			<button id="click-me">Convert to °C !</button>
+			<p>Your converted temp is: <span id="temp_out"> </span> <span id="scale_out"></span>.</p>
+		</div>
+	<!-- ADD A SCRIPT TAG AND POINT IT TO JQUERY CDN! -->
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/project.js"></script>
+</body>
+</html>
