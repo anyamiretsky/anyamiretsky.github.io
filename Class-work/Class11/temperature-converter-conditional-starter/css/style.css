@@ -1,0 +1,16 @@
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 110px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  box-sizing: border-box;
+  width: 60px;
+  margin: 5px 55px 5px 5px;
+}
