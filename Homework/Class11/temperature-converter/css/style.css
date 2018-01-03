@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/warm.jpg);
+    background-size: cover;
+
+}
+h1{
+    background-color: rgba(215, 215, 115, 0.5);
+    padding: 5px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: silver;
+}
+#temp{
+    text-align: right;
+    width: 90px;
+    border-radius: 5px;
+}
+#result{
+    width: 500px;
+    margin: 20px;
+    background-color: rgba(215, 215, 115, 0.5);
+    border-radius: 5px;
+}
+#penguin{
+    height:20%;
+    width:20%;
+ 
+}
