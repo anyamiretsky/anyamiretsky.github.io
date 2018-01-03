@@ -1,6 +1,4 @@
-
 $('#click-me').click(function(){
-
     // Store your current age into a variable
     var age = parseInt($('#age').val());
     // Store a maximum age into a variable
@@ -17,3 +15,4 @@ $('#click-me').click(function(){
     $('#drink').html(item);
 
 })
+
