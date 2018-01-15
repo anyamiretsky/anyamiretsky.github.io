@@ -1,0 +1,51 @@
+
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/basic.css">
+  <style>
+    .container {
+      height: 100%;
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: 40px auto 40px;
+      grid-template-areas: 
+        "m m m h h h h h h h h h"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+        /* things must be in rectangles and squares */
+    }
+
+    .header {
+      /* grid-column: 1 / -1; */
+      grid-area: h;
+    }
+
+    .menu {
+      grid-area: m;
+    }
+
+    .content {
+      /* grid-column: 2 / -1; */
+      grid-area: c;
+    }
+
+    .footer {
+      /* grid-column: 1 / -1; */
+      grid-area: f;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">HEADER</div>
+    <div class="menu">MENU</div>
+    <div class="content">CONTENT</div>
+    <div class="footer">FOOTER</div>
+  </div>
+</body>
+
+</html>

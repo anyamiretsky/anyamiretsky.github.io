@@ -1,0 +1,28 @@
+body {
+	font-family: 'Zilla Slab', serif;
+	line-height: 1.8;
+  background-color:#fff;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+.content, .side-menu, .side-info {
+  padding: 5px;
+}
+
+header, footer {
+  background-color: #E6E6FA;
+  padding: 20px 5px;
+}
+
+.content {
+  background-color: #fcfcfc
+}
+
+.side-menu {
+  background-color: #FFE4B5;
+}
+
+.side-info {
+  background-color: #dcdcdc;
+}
