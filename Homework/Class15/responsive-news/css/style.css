@@ -1,0 +1,126 @@
+body {
+  background-color: #efefef;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#container {
+	width: 80%;
+	margin: 1% auto;
+	max-width: 1000px;
+}
+
+header {
+	text-align: center;
+	margin: 1% 0;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	width: 33.333%;
+	padding: 16px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid #cccccc;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav a:hover {
+	background: #cccccc;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	margin: 8px 0;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+#hero {
+	text-align: center;
+	margin: 3% 0;
+}
+
+#hero img {
+	display: block;
+	width: 100%;
+}
+
+.hero-h1 {
+	font-size: 50px;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#articles {
+	width: 55%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#articles img {
+	width: 100%;
+	display: block;
+}
+
+.main-article {
+	width: 48%;
+}
+
+#side-column {
+	width: 42%;
+}
+
+#side-column img {
+	width: 100%;
+}
+
+p {
+	margin-bottom: 16px;
+	line-height: 1.2;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 560px) {
+	#container {
+		width: 100%;
+	}
+	.big-article, 
+	.main-article {
+		margin-top:30px
+	}
+	.side-article{
+		margin-top: 50px;
+	}
+	#articles{
+		width:100%;
+		/* they will fill up the whole window */
+	}
+	#side-column {
+		width:100%;
+	}
+	.hero-h1{
+		font-size: 1em;
+	}
+}
+
