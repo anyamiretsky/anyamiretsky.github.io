@@ -39,8 +39,9 @@ body{
   }
   .weekOf{
     font-size: 12px;
+    
   }
-  .button{
+  .btnSetDate{
     background-color: yellow;
     /* border: solid 1px grey; */
     border-radius: 4px;
@@ -100,18 +101,27 @@ body{
     background-color: lightgray;
    
   }
-  .dayHead-h{
+  .row{
+    border: solid 2x gray; 
+    box-shadow: 0 4px 2px -2px gray; 
+  }
+  
+  .dayHead{
     background-color:gray;
     margin: 0px;
     padding: 4px;
     font-family: 'Lora', 'serif';
     box-shadow: inset 0 4px 11px -2px black;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
   }
-  .row{
-    border: solid 2x gray; 
-    box-shadow: 0 4px 2px -2px gray; 
+  .dayHead-h{
+    margin: 1px;
   }
+  
   ul{
     list-style:none;
   }

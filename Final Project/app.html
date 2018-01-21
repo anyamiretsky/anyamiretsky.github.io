@@ -1,0 +1,197 @@
+<!DOCTYPE html>  
+
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway|Open+Sans|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Family Weekly Tasker</h3>
+        </div>
+        <div class="menu">
+            <div class="weekOf">
+            </div>
+            <div class-="setWeek">
+                <input type="date" class="newStartDate">
+                <input type="button" class="btnSetDate" value="Set New Week">  
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentInnerHeading">
+                <div class="tabs">
+                    <span class="tab">Sophie (24)</span>
+                    <span class="tab">Anya (14)</span>
+                    <span class="tab">Stephen (21)</span>
+                </div><!-- tabs -->
+                <p>Sophie's prize: a trip to the movies</p>
+            </div><!-- contentInnerHeading -->
+            <div class="wrapper-outer">
+                <div class="row">
+                    <header class="dayHead">
+                        <h4 class="dayHead-h , day1">Monday</h4>
+                        <span>Total: 24</span>
+                    </header>
+                    
+                    <div class="wrapper">
+                        <span>
+                            <select class="tasks" name="tasks">
+                                 <!-- will be filled dynamically from the taskList array -->
+                            </select>
+                            <a href='javascript:void(0);' class='add'>&plus;</a>
+                            <ul>
+                                <!-- to be filled dynamically from dropdown selection and add button -->
+                                <li><input id="sweep" type='checkbox'>Sweep(2)</li>
+                                <li><input id="tub" type='checkbox'>Clean the Tub(4)</li>
+                            </ul> 
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day2">Tuesday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                    <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dishes" type='checkbox'>Do the Dishes(3)</li>
+                                    <li><input id="piggies" type='checkbox'>Clean Guinea Pig Cage(6)</li>
+                                </ul> 
+                            </span>
+                            
+                        </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day3">Wednesday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                    <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dust" type='checkbox'>Dust(3)</li>
+                                    <li><input id="bed" type='checkbox'>Make My Bed(2)</li>
+                                </ul> 
+                            </span>
+                        </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day4">Thursday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                        <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dishes" type='checkbox'>Do the Dishes(3)</li>
+                                    <li><input id="piggies" type='checkbox'>Clean Guinea Pig Cage(6)</li>
+                                </ul> 
+                            </span>
+                        </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day5">Friday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                        <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dishes" type='checkbox'>Do the Dishes(3)</li>
+                                    <li><input id="piggies" type='checkbox'>Clean Guinea Pig Cage(6)</li>
+                                </ul> 
+                            </span>
+                        </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day6">Saturday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                        <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dishes" type='checkbox'>Do the Dishes(3)</li>
+                                    <li><input id="piggies" type='checkbox'>Clean Guinea Pig Cage(6)</li>
+                                </ul> 
+                            </span>
+                        </div>
+                </div>
+                <div class="row">
+                        <header class="dayHead">
+                            <h4 class="dayHead-h , day7">Sunday</h4>
+                            <span>Total: 24</span>
+                        </header>
+                        <div class="wrapper">
+                            <span>
+                                <select class="tasks" name="tasks">
+                                        <!-- will be filled dynamically from the taskList array -->
+                                </select>
+                                <a href='javascript:void(0);' class='add'>&plus;</a>
+                                <ul>
+                                    <li><input id="dishes" type='checkbox'>Do the Dishes(3)</li>
+                                    <li><input id="piggies" type='checkbox'>Clean Guinea Pig Cage(6)</li>
+                                </ul> 
+                            </span>
+                        </div>
+                </div>
+            </div> <!-- wrapper -->
+        </div> <!-- content -->
+
+        <div class="footer"><p>The winner is:</p></div>
+    </div>
+    <!-- Data parsing library : Moment.js -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js"></script>
+   
+
+    <!-- not sure why the jquery and firebase includes are needed again here? -->
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+        <!-- <script src="tasks/app.js"></script> -->
+        
+    <script src="js/app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDk28A82vpHlHUAUMzwtIeFtTV7LC8PaKc",
+        authDomain: "ga-final-project-f963f.firebaseapp.com",
+        databaseURL: "https://ga-final-project-f963f.firebaseio.com",
+        projectId: "ga-final-project-f963f",
+        storageBucket: "",
+        messagingSenderId: "899476750693"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script> -->
+    <script src="js/appDB.js"></script>
+
+
+
+</body>
+</html>
