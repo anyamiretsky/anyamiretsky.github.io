@@ -43,7 +43,7 @@ let game = {
             {
               id: 'dishes',
               description: 'Do the Dishes',
-              pointsDay: 3,
+              points: 3,
               completed: false
             }
           ]

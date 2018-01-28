@@ -106,9 +106,6 @@ function renderTab () {
 renderTab();
 
 
-
-
-
 //write to task to game object
 function writeTask(user, dayIn, task, desc, pointsIn){
   console.log('In writeTask');
@@ -137,7 +134,7 @@ function incrementUserPoints(user, pointsIn){
 }
 
 //write day's task points to game object
-function WriteDayPoints(user, dayIn, taskIn, completedIn, pointsIn){
+function writeDayPoints(user, dayIn, taskIn, completedIn, pointsIn){
    console.log('In WriteDayPoints');
     game.users[user].days.forEach(function(day){
       if(day.dayName==dayIn){
@@ -347,7 +344,7 @@ $('.task-checkbox').on("change", function(){
     }else {completed=false;}
     
     console.log('currentuser: '+ currentUserIndex + ' currentDay: ' + currentDay + ' task: ' + task + ' points: '  + points);
-    WriteDayPoints(currentUserIndex, currentDay, task, completed, points);
+    writeDayPoints(currentUserIndex, currentDay, task, completed, points);
     incrementUserPoints(currentUserIndex, points);
     updateHTMLpoints(currentUserIndex,currentDay);
   
