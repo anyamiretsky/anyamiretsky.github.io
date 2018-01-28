@@ -1,0 +1,21 @@
+.wrapper {
+	text-align: center;
+	padding-top: 75px;
+}
+
+header {
+	background: SeaGreen;
+	position: fixed;
+	left:0;
+	top:0;
+	right:0;
+	font-size: 75px;
+	transition: all 0.1s ease-in-out;
+
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 30px auto 0;
+}

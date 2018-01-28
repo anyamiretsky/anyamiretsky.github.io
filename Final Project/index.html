@@ -1,69 +1,87 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 
 <html>
+
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Lora|Raleway|Open+Sans|Poppins" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
-    <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Raleway|Open+Sans|Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+
+
+<!-- <script id="tasks-template" type="text/x-handlebars-template">
     <div>
-        <!-- The surrounding HTML is left untouched by FirebaseUI.
-        Your app may use that space for branding, controls and other customizations.-->
-        <h1>Welcome to Family Weekly Tasker</h1>
-        <div id="firebaseui-auth-container"></div>
-        <div id="loader">Loading...</div>
+      <h1><asdfasdfasdfas</h1>
+      <h3{{message}}</h3>
     </div>
+</script> -->
+
+  <div class="handle"></div>
 
 
-    <script
-        src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-        crossorigin="anonymous">
-    </script>
+  <div class="container">
+    <div class="header">
+      <h3>Family Weekly Tasker</h3>
+    </div>
+    <div class="menu">
+      <div class="weekOf">
+      </div>
+      <div class-="setWeek">
+        <input type="date" class="newStartDate">
+        <input type="button" class="btnSetDate" value="Set New Week">
+      </div>
+    </div>
+    <div class="content">
+      <div class="contentInnerHeading">
+        <div class="tabs">
+          <!-- <span class="tab tab-1">Sophie (24)</span>
+          <span class="tab tab-2">Anya (14)</span>
+          <span class="tab tab-3">Stephen (21)</span> -->
+        </div>
+        <!-- tabs -->
+        <p>Sophie's prize: a trip to the movies</p>
+      </div>
+      <!-- contentInnerHeading -->
+      <div class="tab days wrapper-outer">
+      </div>
+      <!-- wrapper -->
+    </div>
+    <!-- content -->
 
-    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-    <script>
+    <div class="footer">
+      <p>The winner is:</p>
+    </div>
+  </div>
+
+
+  <!-- not sure why the jquery and firebase includes are needed again here? -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+  <!-- Data parsing library : Moment.js -->
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js"></script>
+
+ <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script>
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyDk28A82vpHlHUAUMzwtIeFtTV7LC8PaKc",
-        authDomain: "ga-final-project-f963f.firebaseapp.com",
-        databaseURL: "https://ga-final-project-f963f.firebaseio.com",
-        projectId: "ga-final-project-f963f",
-        storageBucket: "",
-        messagingSenderId: "899476750693"
+      apiKey: "AIzaSyDk28A82vpHlHUAUMzwtIeFtTV7LC8PaKc",
+      authDomain: "ga-final-project-f963f.firebaseapp.com",
+      databaseURL: "https://ga-final-project-f963f.firebaseio.com",
+      projectId: "ga-final-project-f963f",
+      storageBucket: "",
+      messagingSenderId: "899476750693"
     };
     firebase.initializeApp(config);
-    </script>
+  </script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script> -->
+  <script src="js/appDB.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/app.js"></script>
 
-    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
-    <script>
-        // Initialize the FirebaseUI Widget using Firebase.
-        var ui = new firebaseui.auth.AuthUI(firebase.auth());
-        ui.start('#firebaseui-auth-container', {
-            callbacks: {
-                signInSuccess: function(currentUser, credential, redirectUrl) {
-                    // User successfully signed in.
-                    // Return type determines whether we continue the redirect automatically
-                    // or whether we leave that to developer to handle.
-                    return true;
-                },
-                uiShown: function() {
-                    // The widget is rendered.
-                    // Hide the loader.
-                    document.getElementById('loader').style.display = 'none';
-                }
-            },
-            // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
-            signInFlow: 'popup',
-            signInSuccessUrl: 'app.html',
-            signInOptions: [
-            // Leave the lines as is for the providers you want to offer your users.
-            firebase.auth.EmailAuthProvider.PROVIDER_ID
-            ]
-        });
-    </script>
- 
+
+
 </body>
+
 </html>
