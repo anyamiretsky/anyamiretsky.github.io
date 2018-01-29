@@ -1,0 +1,12 @@
+Final Project Proposal
+
+12/11/2017
+
+I propose to build a Family Weekly Tasks app/game. The app will allow for multiple family members to create weekly task lists and keep track of the tasks completed by them. The tasks will be selected from a predetermined list of tasks put into the system by the family and each task will be assigned a number of points. The family member with the greatest amount of points accumulated by the end of each week will ‘win’ the weekly ‘prize’ decided upon by the family that week.
+
+Possible layout might be:
+
+Name of the app as the header, with a date picker to select the ‘Week of…’ date and weekly prize input.
+Tabs for each ‘contestant’/ family member with seven well defined areas - one for each day of the week. 
+Tasks for each day listed in each day’s area with points/task and checkboxes for completion.
+Footer with running tally of points for each player. 
