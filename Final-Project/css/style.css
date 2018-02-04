@@ -115,9 +115,7 @@ body{
     flex-wrap: wrap;
     padding: 8px;
     /* width: 100%; */
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/floralWallPaper.png");
-    /* background-color: seagrean; */
-   
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/floralWallPaper.png"); 
   }
   .row{
     border: solid 2x gray; 
