@@ -5,7 +5,7 @@ body{
   font-family: 'Lora', 'serif';
 }
 .container {
-    height: 100%;
+    height: 95%;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
@@ -20,29 +20,35 @@ body{
   .header {
    
     grid-area: h;
-    background-color: gray;
+    /* background-color: rgb(191, 10, 102); */
+    background-color: rgb(193, 129, 162);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     border-radius: 10px;
+    padding:10px;
     
   }
 
   .menu {
-    background-color:  gray;
+    /* background-color:  rgb(191, 102, 102); */
+    /* background-color: rgba(191, 102, 102,0.67); */
+    background-color: rgb(134, 121,121);
     grid-area: m;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     flex-grow: 1;
+    padding:10px;
   }
   .weekOf{
     font-size: 12px;
     
   }
   .btnSetDate{
-    background-color: yellow;
+    background-color: rgb(219, 219, 116);
     /* border: solid 1px grey; */
     border-radius: 4px;
     box-shadow: 0 4px 2px -2px gray;
@@ -50,8 +56,11 @@ body{
 
   .content {
     font-family: 'Raleway', sans-serif;
-    /* background-color: seagreen; */
-    background-image: url(../img/pexels-photo-326311.jpeg);
+    /* background-color: seagreen; */   
+ 
+    background-image: url(../img/wood.jpeg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     grid-area: c;
     display: flex;
     flex-direction: column;
@@ -61,7 +70,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     flex-grow: 1;
-
+    flex-shrink: 1;
     
   }
   .contentInnerHeading{
@@ -73,12 +82,18 @@ body{
   }
 
   .tab{
-    background-color:lightyellow;
+    background-color:rgba(191, 102, 102,0.67);
     border-radius: 8px;
     padding: 4px;
     font-family: 'Lora', 'serif';
     box-shadow: inset 0 4px 10px -2px darkblue;
+    cursor: pointer;
   }
+
+  .tab-focus{
+    background-color: rgb(219, 219, 116);
+  }
+
   .userPrize{
     color:white;
   }  
@@ -99,13 +114,9 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     padding: 8px;
-    /* border:gray 1px solid;
-     */
     /* width: 100%; */
-    /* background-color: lightgray; */
-    background-image: url(../img/floralWallPaper.png);
-    
-    background-color: bisque;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/floralWallpaper.png");
+    /* background-color: seagrean; */
    
   }
   .row{
@@ -114,7 +125,7 @@ body{
   }
   
   .dayHead{
-    background-color:gray;
+    background-color:rgb(134, 121,121);
     margin: 0px;
     padding: 4px;
     font-family: 'Lora', 'serif';
@@ -152,7 +163,7 @@ body{
   }
   .footer {
    
-    background-color:  gray;
+    background-color:  rgb(134, 121,121);;
     grid-area: f;
     display: flex;
     justify-content: center;
@@ -161,12 +172,34 @@ body{
     border-radius: 10px;
   }
 
-  @media (max-width: 550px) {
+  @media (max-width: 734px) {
+    .container{
+      grid-template-rows: 100px auto 40px;
+    }
+    .header{
+      font-size: .9em;
+    }
     .menu {
       display: inherit;
+      padding: 10px;
     }
     .contentInnerHeading{
       display: block;
     }
   }
- 
+
+  @media (max-width: 320px) {
+
+    .header{
+      font-size: .6em;
+      padding: 3px;
+    }
+    .menu {
+      display: inherit;
+      font-size: .6em;
+      
+    }
+    .contentInnerHeading{
+      display: block;
+    }
+  }

@@ -1,6 +1,9 @@
 
 
 let game = {
+  startDate:'',
+  endDate:'',
+  winner: 'Sophie',
   users: [
     {
       name: 'Sophie',
@@ -8,8 +11,8 @@ let game = {
       pointsUser: 0,
       days: [
         {
-          dayName: 'Day1',
-          dayLabel: 'Monday',
+          dayName: 'Day0',
+          dayLabel: 'Monday Feb 5th 2018',
           pointsDay: 0,
           tasks: [
             // {
@@ -27,21 +30,24 @@ let game = {
           ]
         },
         {
-          dayName: 'Day2',
-          dayLabel: 'Tuesday',
+          dayName: 'Day1',
+          dayLabel: 'Tuesday Feb 6th 2018',
           pointsDay: 0,
           tasks: [
-            // {
-            //   id: 'dishes',
-            //   description: 'Do the Dishes',
-            //   points: 3,
-            //   completed: false
-            // }
+            
           ]
         },        
         {
+          dayName: 'Day2',
+          dayLabel: 'Wednesday Feb 7th 2018',
+          pointsDay: 0,
+          tasks: [
+            
+          ]
+        },
+        {
           dayName: 'Day3',
-          dayLabel: 'Wednesday',
+          dayLabel: 'Thursday Feb 8th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -49,7 +55,7 @@ let game = {
         },
         {
           dayName: 'Day4',
-          dayLabel: 'Thursday',
+          dayLabel: 'Friday Feb 9th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -57,7 +63,7 @@ let game = {
         },
         {
           dayName: 'Day5',
-          dayLabel: 'Friday',
+          dayLabel: 'Saturday Feb 10th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -65,15 +71,7 @@ let game = {
         },
         {
           dayName: 'Day6',
-          dayLabel: 'Saturday',
-          pointsDay: 0,
-          tasks: [
-            
-          ]
-        },
-        {
-          dayName: 'Day7',
-          dayLabel: 'Sunday',
+          dayLabel: 'Sunday Feb 11th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -83,12 +81,12 @@ let game = {
     },
     {
       name: 'Anya',
-      prize: 'Day Trip',
+      prize: 'Dinner out',
       pointsUser: 0,
       days: [
         {
-          dayName: 'Day1',
-          dayLabel: 'Monday',
+          dayName: 'Day0',
+          dayLabel: 'Monday Feb 5th 2018',
           pointsDay: 0,
           tasks: [
             // {
@@ -106,21 +104,24 @@ let game = {
           ]
         },
         {
-          dayName: 'Day2',
-          dayLabel: 'Tuesday',
+          dayName: 'Day1',
+          dayLabel: 'Tuesday Feb 6th 2018',
           pointsDay: 0,
           tasks: [
-            // {
-            //   id: 'dishes',
-            //   description: 'Do the Dishes',
-            //   points: 3,
-            //   completed: false
-            // }
+            
           ]
         },        
         {
+          dayName: 'Day2',
+          dayLabel: 'Wednesday Feb 7th 2018',
+          pointsDay: 0,
+          tasks: [
+            
+          ]
+        },
+        {
           dayName: 'Day3',
-          dayLabel: 'Wednesday',
+          dayLabel: 'Thursday Feb 8th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -128,7 +129,7 @@ let game = {
         },
         {
           dayName: 'Day4',
-          dayLabel: 'Thursday',
+          dayLabel: 'Friday Feb 9th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -136,7 +137,7 @@ let game = {
         },
         {
           dayName: 'Day5',
-          dayLabel: 'Friday',
+          dayLabel: 'Saturday Feb 10th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -144,15 +145,7 @@ let game = {
         },
         {
           dayName: 'Day6',
-          dayLabel: 'Saturday',
-          pointsDay: 0,
-          tasks: [
-            
-          ]
-        },
-        {
-          dayName: 'Day7',
-          dayLabel: 'Sunday',
+          dayLabel: 'Sunday Feb 11th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -162,12 +155,12 @@ let game = {
     },
     {
       name: 'Stephen',
-      prize: 'Movies',
+      prize: 'Movie',
       pointsUser: 0,
       days: [
         {
-          dayName: 'Day1',
-          dayLabel: 'Monday',
+          dayName: 'Day0',
+          dayLabel: 'Monday Feb 5th 2018',
           pointsDay: 0,
           tasks: [
             // {
@@ -185,21 +178,24 @@ let game = {
           ]
         },
         {
-          dayName: 'Day2',
-          dayLabel: 'Tuesday',
+          dayName: 'Day1',
+          dayLabel: 'Tuesday Feb 6th 2018',
           pointsDay: 0,
           tasks: [
-            // {
-            //   id: 'dishes',
-            //   description: 'Do the Dishes',
-            //   points: 3,
-            //   completed: false
-            // }
+            
           ]
         },        
         {
+          dayName: 'Day2',
+          dayLabel: 'Wednesday Feb 7th 2018',
+          pointsDay: 0,
+          tasks: [
+            
+          ]
+        },
+        {
           dayName: 'Day3',
-          dayLabel: 'Wednesday',
+          dayLabel: 'Thursday Feb 8th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -207,7 +203,7 @@ let game = {
         },
         {
           dayName: 'Day4',
-          dayLabel: 'Thursday',
+          dayLabel: 'Friday Feb 9th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -215,7 +211,7 @@ let game = {
         },
         {
           dayName: 'Day5',
-          dayLabel: 'Friday',
+          dayLabel: 'Saturday Feb 10th 2018',
           pointsDay: 0,
           tasks: [
             
@@ -223,15 +219,7 @@ let game = {
         },
         {
           dayName: 'Day6',
-          dayLabel: 'Saturday',
-          pointsDay: 0,
-          tasks: [
-            
-          ]
-        },
-        {
-          dayName: 'Day7',
-          dayLabel: 'Sunday',
+          dayLabel: 'Sunday Feb 11th 2018',
           pointsDay: 0,
           tasks: [
             

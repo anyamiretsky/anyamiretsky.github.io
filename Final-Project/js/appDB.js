@@ -1,23 +1,14 @@
 //establish a database object to firebase db
 var DB = firebase.database();
 
-function writeGameDates() {
-  DB.ref("users/gameDates").set({
-    Day1: "",
-    Day2: "",
-    Day3: "",
-    Day4: "",
-    Day5: "",
-    Day6: "",
-    Day7: ""
-  });
-}
 
-function writeFirebase() {
+
+function writeFirebase(gameToWrite) {
   DB.ref("users/username").set({
-    username: "Anya",
-    email: "test@bbg.org",
-    profile_picture: "imageURL"
+    // username: "Anya",
+    // email: "test@bbg.org",
+    // profile_picture: "imageURL"
+    newGame: gameToWrite
   });
 }
 
