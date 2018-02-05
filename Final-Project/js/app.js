@@ -393,7 +393,8 @@ $(document).ready(function() {
       //console.log(gameDates);
       console.log('IN SET NEW GAME');
       console.log(game);
-      //writeFirebase(game);
+      writeFirebase(game);
+      readFirebase("name"); 
     }
   }); //end set new game
 
