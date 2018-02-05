@@ -155,7 +155,8 @@ renderTab();
 
 function collapseDays(){
         //slide toggle days
-        $(".wrapper").slideUp();
+         //$(".wrapper").slideUp();
+        $('.wrapper').hide();
         $('.wrapper').first().slideDown();
         //show/hide days
         $(".dayHead").click(function() {
@@ -318,7 +319,9 @@ $(document).ready(function() {
   // and calculate winner
 
   //Slide Toggle to hide all day details to start with
-  $(".wrapper").slideUp();
+  // $(".wrapper").slideUp();
+  // $('body').fadeIn('slow');
+  $('.wrapper').hide();
   $('.wrapper').first().slideDown();
  
   //show/hide days
@@ -394,7 +397,7 @@ $(document).ready(function() {
       console.log('IN SET NEW GAME');
       console.log(game);
       writeFirebase(game);
-      readFirebase("name"); 
+      readFirebase(); 
     }
   }); //end set new game
 

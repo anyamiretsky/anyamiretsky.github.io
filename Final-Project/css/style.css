@@ -1,5 +1,6 @@
 html, body { height: 100%; }
 body{
+ 
   margin: 15px;
   background-color: lightgrey;
   font-family: 'Lora', 'serif';
@@ -103,11 +104,8 @@ body{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    /* border:gray 1px solid;
-     */
     width: 100%;
     background-color: rgb(19, 18, 20);
-   
   }
   .wrapper{
     display: flex;
